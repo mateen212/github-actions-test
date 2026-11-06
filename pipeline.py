@@ -2,7 +2,7 @@ def clean_data(data):
     cleaned = []
 
     for item in data:
-        item = item.strip()
+        # item = item.strip()
 
         if item:
             cleaned.append(item)
